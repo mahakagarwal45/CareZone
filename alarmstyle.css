@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+#head3{
+    float: center;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 36px;
+    padding-bottom: 20px;
+    top: 500px;
+    font-size: 40px;
+  }
+
+  /* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  #alarmButton{
+    padding: 10px;
+    width: 50px;
+  }
+  body{
+    background-color: lightblue;
+  }
+  #table{
+    font-size: 22px;
+  }
+  #clockContainer {
+   float: right;
+    margin: auto;
+    height: 2vw;
+    /*to make the height and width responsive*/
+    width: 2vw;
+    background: url(clock.webp) no-repeat;
+    /*setting our background image*/
+    background-size: 100%;
+    padding-top: 30px;
+  }
+  
+  #hour,
+  #minute,
+  #second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+  }
+  
+  #hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+  }
+  
+  #minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+  }
+  
+  #second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+  }
+  
+  
+  #alarmTime {
+    font-size: 28px;
+  }
+  #alarmButton {
+    font-size: 28px;
+  }
+  .set{
+    font-size: 30px;
+    padding: 50px;
+    color: #2507ab;
+  }
+  table, th, td {
+    border: 2px solid;
+    padding: 2px;
+  }

@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .div{
+    width: 20px;
+  }
+  #para1{
+    padding-top: 5px;
+    font-size: 24px;
+    padding-left: 850px;
+    width: 800px;
+    height: 40px;
+   color: rgb(246, 242, 9);
+   
+  }
+
+  .button {
+    display: block;
+    width: 10%;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 18px 28px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    float: right;
+    margin-right: 100px;
+    margin-left: 1s0px;
+    padding-left: 30px;
+  }
+  
+  .button:hover {
+    background-color: #1a35af;
+    color: black;
+
+  }
+  .head2{
+    font-size: 30px;
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-decoration: solid;
+    padding-left: 40px;
+  }
+  .logo{
+    width: 10px;
+    padding-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 800px;
+  }
+ nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: teal;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  }
+
+  .nav-links li {
+    list-style: none;
+  }
+
+  .nav-links a {
+   color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+  .nav-links a:hover:not(.active) {
+    background-color: lightseagreen;
+    width: 100px;
+    margin: 0px;
+  }
+
+  .nav-links li a.active {
+
+    background-color: #4caf50;
+  }
+  #head{
+    padding-left: 1050px;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 100px;
+  }
+  /* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 70%;
+  shape-margin: 10px;
+  margin-bottom: 20px;
+  padding-left: 280px;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
