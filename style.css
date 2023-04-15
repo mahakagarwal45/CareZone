@@ -3,6 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
   }
+  .body-text{
+    color: rgb(25, 5, 155);
+    padding: 20px;
+    background-color: rgb(255, 183, 195);
+    }
 
   .div{
     width: 20px;
@@ -127,14 +132,6 @@ button {
 /* Add a hover effect for buttons */
 button:hover {
   opacity: 0.8;
-}
-
-/* Avatar image */
-img.avatar {
-  width: 70%;
-  shape-margin: 10px;
-  margin-bottom: 20px;
-  padding-left: 280px;
 }
 
 /* Add padding to containers */
