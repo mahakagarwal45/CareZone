@@ -6,7 +6,6 @@
   .body-text{
     color: rgb(25, 5, 155);
     padding: 20px;
-    background-color: rgb(255, 183, 195);
     }
 
   .div{
@@ -28,14 +27,14 @@
     border: none;
     background-color: #04AA6D;
     color: white;
-    padding: 18px 28px;
+    padding: 10px 20px;
     cursor: pointer;
     text-align: center;
     font-size: 20px;
     position: relative;
     float: right;
-    margin-right: 100px;
-    margin-left: 1s0px;
+    margin-right: 30px;
+    margin-left: 10px;
     padding-left: 30px;
   }
   
